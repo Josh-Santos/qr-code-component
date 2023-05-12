@@ -1,3 +1,48 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background: hsl(212, 45%, 89%);
+}
+
+.container {
+    background: hsl(0, 0%, 100%);
+    width: 325px;
+    height: 480px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+#qr--code {
+    height: 280px;
+    width: 280px;
+    margin: auto;
+    display: block;  
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: -16px;
+}
+
+.header--1 {
+    font-family: 'Outfit', sans-serif; 
+    text-align: center; 
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 22px;
+}
+
+.paragraph--1 {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
